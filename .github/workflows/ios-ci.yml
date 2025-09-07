@@ -28,7 +28,7 @@ jobs:
       - name: Run iOS Unit/UI Tests
         run: |
           xcodebuild test \
-            -project SampleLatestApp.xcodeproj \
+            -project SampleLatestApp/SampleLatestApp.xcodeproj \
             -scheme SampleLatestApp \
             -destination 'platform=iOS Simulator,name=iPhone 14'
 
